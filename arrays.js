@@ -5,5 +5,5 @@ function addElementToBeginningOfArray (originalArray, prependValue) {
 }
 
 function destructivelyAddElementToBeginningOfArray (originalArray, prependValue) {
-  return originalArray.unshift(prependValue)
+  originalArray.unshift(prependValue)
 }
